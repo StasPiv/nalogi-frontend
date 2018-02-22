@@ -28,7 +28,7 @@ class App extends React.Component {
         this.setState({file:e.target.files[0]})
     }
     fileUpload(file){
-        const url = 'http://api.nalogi.local.ua/calculate-from-file';
+        const url = 'http://api.nalogi.pozitiffchess.net/calculate-from-file';
         const formData = new FormData();
         formData.append('file',file)
         const config = {
